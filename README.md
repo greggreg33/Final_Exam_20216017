@@ -6,11 +6,11 @@
 
 #2. insert code :
 
-...python
+```python
 log_reg = sklearn.linear_model.LogisticRegression(max_iter = 450, C = 1050, random_state=1)
 log_reg.fit(X_train,y_train)
 y_pred = log_reg.predict(X_test)
-...
+```
 
 explantion : I created a model called log_reg ( = short for LogisticRegression) using the sklearn package. And, trained the model using X_train and y_train. 
 
